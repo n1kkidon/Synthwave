@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "org.nikkidon"
-version = "1.3"
+version = "1.3.1"
 
 repositories {
   mavenCentral()
@@ -32,7 +32,7 @@ tasks {
 
   patchPluginXml {
     sinceBuild.set("231")
-    untilBuild.set("251.*")
+    untilBuild.set("260.*")
   }
 
   signPlugin {
